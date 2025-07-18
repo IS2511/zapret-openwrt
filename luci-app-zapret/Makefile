@@ -10,7 +10,7 @@ PKG_LICENSE:=MIT
 PKG_MAINTAINER:=remittor <https://github.com/remittor>
 
 LUCI_TITLE:=LuCI support for zapret
-LUCI_DEPENDS:=+zapret
+# LUCI_DEPENDS:=+zapret
 LUCI_PKGARCH:=all
 
 define Package/$(PKG_NAME)/postinst
